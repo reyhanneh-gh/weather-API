@@ -1,2 +1,33 @@
 @import "tailwindcss";
+
 /* npx @tailwindcss/cli -i ./src/style/master.css -o ./src/style/output.css --watch */
+.mainBg {
+    background: #6ac0eb;
+    background: linear-gradient(0deg, rgba(106, 192, 235, 1) 0%, rgba(179, 224, 232, 1) 26%, rgba(179, 201, 232, 1) 50%, rgb(200, 169, 238) 100%);
+}
+
+.secBg {
+    background-color: rgba(240, 255, 255, 0.247);
+    border: 1px solid rgba(255, 255, 255, 0.51);
+}
+
+.iconBg {
+    background: #6ac0eb;
+    background: linear-gradient(226deg, rgba(106, 192, 235, 1) 0%, rgba(150, 194, 255, 1) 33%, rgba(124, 94, 255, 1) 100%);
+}
+
+/* -------------------scrollbar-------------------- */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(128, 194, 255, 0.584);
+    border-radius: 5px;
+}
